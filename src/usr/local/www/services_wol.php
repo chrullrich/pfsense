@@ -116,7 +116,7 @@ include("head.inc");
 <div class="infoblock blockopen">
 <?php
 print_info_box(gettext('This service can be used to wake up (power on) computers by sending special "Magic Packets".') . '<br />' .
-			   gettext('The NIC in the computer that is to be woken up must support Wake-on-LAN and must be properly configured (WOL cable, BIOS settings).'),
+			   gettext('The NIC in the computer that is to be woken up must support Wake-on-LAN and its firmware must be properly configured.'),
 			   'info', false);
 
 ?>
